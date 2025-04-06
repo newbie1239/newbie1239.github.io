@@ -48,7 +48,7 @@ body {
 .wrapper {
   height: 200px;
   width: 300px;
-  background-color: #E66A80;
+  background-color: #1E3A8A;
   position: relative;
   display: flex;
   justify-content: center;
@@ -70,13 +70,13 @@ body {
 }
 
 .lid.one {
-  border-top: 100px solid #F28DA8;
+  border-top: 100px solid #1E3A8A;
   transform: rotateX(0deg);
   z-index: 3;
 }
 
 .lid.two {
-  border-top: 100px solid #E66A80;
+  border-top: 100px solid #87CEEB;
   transform: rotateX(90deg);
   z-index: 1;
 }
@@ -88,9 +88,9 @@ body {
   top: 0;
   left: 0;
   border-top: 100px solid transparent;
-  border-right: 150px solid #FFD3DA;
-  border-bottom: 100px solid #FFD3DA;
-  border-left: 150px solid #FFC0CB;
+  border-right: 150px solid #87CEEB;
+  border-bottom: 100px solid #1E3A8A;
+  border-left: 150px solid #87CEEB;
   z-index: 3;
 }
 
@@ -99,7 +99,7 @@ body {
   top: 0;
   width: 80%;
   height: 80%;
-  background-color: #FFF5F7;
+  background-color:  #FFF5F7;
   border-radius: 15px;
   z-index: 2;
   transition: 0.5s;
